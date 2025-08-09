@@ -1,8 +1,8 @@
 `timescale 1ns/1ps
 
 
-module tb_AES_FIFO_unique_keys();
-
+module tb_AES_FIFO_multiple_keys();
+  
   reg clk, rst;
   reg we, re;
   reg [63:0] data_in;
